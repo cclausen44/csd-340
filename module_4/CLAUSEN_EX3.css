@@ -1,0 +1,55 @@
+#page-title {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+#fav-movies {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300px;
+    width: 45%;
+    float: left;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+#things-learned {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300px;
+    width: 45%;
+    float: right;
+    border: 1px dashed red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#roman {
+    list-style-type: upper-roman;
+}
+
+#footer {
+    margin-top: 60%;
+    width: 100%;
+}
+
+#back-to-top {
+    float: right;
+    margin-bottom: 20%;
+}
+
+#favorite-site, #back-to-top {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+    margin-bottom: 20%;
+    float: right;
+}
+
+#favorite-site:hover, #back-to-top:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: 500;
+}
+
