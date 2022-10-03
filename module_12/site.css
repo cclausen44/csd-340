@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #1E232E;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Header */
+header {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+.name {
+    font-size: 5em;
+    color: white;
+
+}
+
+.tagline {
+    color: white;
+    font-size: 2em;
+
+}
+
+.scrolldown {
+    color: white;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+/* Hobbies */
+
+.hobby-header {
+    color: white;
+    position: relative;
+    top: 600px;
+    text-align: center;
+}
+
+/* Card 1 */
+#container-hobby-card1{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+.hobby1 {
+    position: relative;
+    top: 700px;
+    left: 100px;
+    right: 750px;
+    color: white;
+    box-shadow: 0 4px 8px 0px rgb(192 192 192/ 0.2);
+    transition: .3s;
+    width: 25%;
+    margin-bottom: 25px;
+}
+
+.hobby1:hover {
+    box-shadow: 0 8px 16px 0 rgb(192 192 192/0.2);
+}
+
+.contents-hcard1 {
+
+    padding: 2px 16px;
+}
+
+/* Card 2 */
+.hobby2 {
+    position: relative;
+    top: 390px;
+    left: 550px;
+    right: 750px;
+    color: white;
+    box-shadow: 0 4px 8px 0px rgb(192 192 192/ 0.2);
+    transition: .3s;
+    width: 25%;
+    margin-bottom: 25px;
+}
+
+.hobby2:hover {
+    box-shadow: 0 8px 16px 0 rgb(192 192 192/0.2);
+}
+
+.contents-hcard2 {
+    padding: 2px 16px;
+}
+
+/* Card 3 */
+.hobby3 {
+    position: relative;
+    top: -40px;
+    left: 1000px;
+    right: 750px;
+    color: white;
+    box-shadow: 0 4px 8px 0px rgb(192 192 192/ 0.2);
+    transition: .3s;
+    width: 25%;
+    margin-bottom: 25px;
+}
+
+.hobby3:hover {
+    box-shadow: 0 8px 16px 0 rgb(192 192 192/0.2);
+}
+
+.contents-hcard3 {
+    padding: 2px 16px;
+}
